@@ -1,0 +1,51 @@
+.course--div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+.course--card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 500px;
+    width: 500px;
+
+}
+.course--img{
+    width: 500px;
+    height: 350px;
+}
+
+
+/* course detalis */
+.courseDetalis--root{
+    padding: 2rem;
+}
+.course--detalis--navigate{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.course--detalis{
+    padding-block: 2rem;
+}
+.course--detalis img{
+    height: 400px;
+    width: 60vw;
+}
+.reference--card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 300px;
+    width: 300px;
+}
+.course--reference{
+    display: flex;
+    gap: 3rem;
+}
+.reference--card>img{
+    height: 200px;
+    width: 100%;
+}
+.duration--status{
+    display: flex;
+    justify-content: space-between;
+}

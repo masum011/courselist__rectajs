@@ -1,0 +1,39 @@
+.student--dashboard-ui {
+  padding: 2rem;
+}
+.admin--coursedetalis {
+  border: 1px solid lightgray;
+  margin: auto;
+  width: 60%;
+  padding: 2rem;
+}
+.admin--course {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.student--enroll {
+  padding-block: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.user--img {
+  text-align: center;
+}
+.user--img > img {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+.progress-bar {
+  width: 100%;
+  background-color: #ccc;
+}
+
+.progress {
+  height: 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  transition: width 0.2s;
+}
